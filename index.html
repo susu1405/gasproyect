@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Express - Distribuidora de Gas LP</title>
+    <link rel="stylesheet" href="gasera.css">
+</head>
+<body>
+
+    <!-- Encabezado / Título principal -->
+    <header>
+        <h1 class="titulo">GAS IN YOUR AREA <span>Distribuidora LP</span></h1>
+    </header>
+
+    <!-- Barra de Navegación Principal -->
+    <nav class="navegacion-principal">
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Sección Hero (Ubicación y Presentación) -->
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Venta y Distribución de Gas LP</h2>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                México, CDMX | Servicio 24/7
+            </p>
+            <a class="boton" href="#contacto">Contactar Pedido</a>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <main class="contenedor sombra">
+        <h2>Nuestros Servicios</h2>
+        
+        <div class="servicios">
+            <section class="servicio">
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                    </svg>
+                </div>
+                <h3>Gas Estacionario</h3>
+                <p>Suministro de gas LP para tanques estacionarios residenciales, comerciales e industriales.</p>
+            </section>
+
+            <section class="servicio">
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                        <path d="M12 6v4"/>
+                    </svg>
+                </div>
+                <h3>Cilindros de Gas</h3>
+                <p>Venta y distribución de tanques de gas de 10kg, 20kg y 30kg con entrega rápida a domicilio.</p>
+            </section>
+
+            <section class="servicio">
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                </div>
+                <h3>Mantenimiento</h3>
+                <p>Revisión e instalación de líneas de gas, válvulas y reguladores para mayor seguridad.</p>
+            </section>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <section id="contacto" class="contacto-seccion">
+            <h2>Contacto y Pedidos</h2>
+            
+            <form class="formulario">
+                <fieldset>
+                    <legend>Solicita tu pedido llenando todos los campos</legend>
+                    
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Escribe tu nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Escribe tu teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Dirección</label>
+                            <input class="input-text" type="text" placeholder="Escribe tu dirección de entrega">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" placeholder="¿Qué servicio o tanque necesitas?"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar Pedido">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Todos los derechos reservados. GAS IN YOUR AREA - DISTRIBUIDORA LP</p>
+    </footer>
+
+</body>
+</html>
